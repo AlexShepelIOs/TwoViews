@@ -17,24 +17,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u0z-aR-gLb">
-                                <rect key="frame" x="45" y="84" width="300" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8V9-qE-Jb2">
-                                <rect key="frame" x="45" y="423" width="300" height="300"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8V9-qE-Jb2">
+                                <rect key="frame" x="25" y="436" width="340" height="340"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u0z-aR-gLb">
+                                <rect key="frame" x="25" y="67" width="340" height="340"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="u0z-aR-gLb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="C6t-TX-VUe"/>
+                            <constraint firstItem="8V9-qE-Jb2" firstAttribute="height" secondItem="u0z-aR-gLb" secondAttribute="height" id="Jle-5c-QGW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="u0z-aR-gLb" secondAttribute="trailing" constant="25" id="QyI-Bb-N67"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8V9-qE-Jb2" secondAttribute="bottom" constant="34" id="Rhf-EE-7lc"/>
+                            <constraint firstItem="u0z-aR-gLb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="23" id="TOE-lI-8ZF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8V9-qE-Jb2" secondAttribute="trailing" constant="25" id="o7i-2g-egc"/>
+                            <constraint firstItem="8V9-qE-Jb2" firstAttribute="width" secondItem="u0z-aR-gLb" secondAttribute="width" id="qrH-zj-Kpe"/>
+                            <constraint firstItem="8V9-qE-Jb2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="uo7-zZ-Id7"/>
+                            <constraint firstItem="8V9-qE-Jb2" firstAttribute="top" secondItem="u0z-aR-gLb" secondAttribute="bottom" constant="29" id="v8f-fe-UGk"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="958" y="74"/>
+            <point key="canvasLocation" x="956.92307692307691" y="73.93364928909952"/>
         </scene>
     </scenes>
     <resources>
